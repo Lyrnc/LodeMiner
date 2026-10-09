@@ -1,0 +1,45 @@
+name: Hashrate report
+description: Tell me how LodeMiner runs on your card. Reports from cards other than the RTX 5080 help the most.
+labels: [hashrate]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Let it mine for about 5 minutes first, so the card is warm and the numbers have settled. Please remove your wallet address or email from the lines you paste.
+  - type: input
+    id: version
+    attributes:
+      label: LodeMiner version
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU model and NVIDIA driver version
+      placeholder: RTX 3060 Ti, driver 610.88
+    validations:
+      required: true
+  - type: input
+    id: settings
+    attributes:
+      label: Power limit / overclock, if you changed anything
+      placeholder: stock
+  - type: textarea
+    id: status
+    attributes:
+      label: A status block after about 5 minutes
+      description: The "GPU0 ..." and "Total ..." lines.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: startup
+    attributes:
+      label: The startup lines
+      description: From "LodeMiner x.y.z" down to "connected to ...".
+      render: text
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else
+      description: Other miners you've compared with on the same card, temperatures, anything odd.

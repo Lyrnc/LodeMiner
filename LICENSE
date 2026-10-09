@@ -1,0 +1,52 @@
+LodeMiner License
+
+Copyright (c) 2026 Lyrnc. All rights reserved.
+
+LodeMiner is free to download and use. It is not open source. By installing or running it you agree
+to these terms.
+
+1. What you may do
+   - Run LodeMiner on any number of your own computers, for personal or commercial mining.
+   - Share the official, unmodified download (the release zip or a link to the release page) with
+     others, as long as you do not charge for it and keep every file in it unchanged.
+
+2. What you may not do
+   - Sell LodeMiner, rent it out, or bundle it with something you sell.
+   - Modify the program, or remove, change or bypass the developer fee or any notice in it.
+   - Reverse engineer, decompile or disassemble it, except where the law allows this regardless of
+     this license.
+   - Publish modified copies or present it as your own work.
+
+3. Developer fee
+   LodeMiner mines for its developer for 1 % of the time your GPUs mine for you, kept as a running
+   balance and paid in short slices: 30 seconds after about 5 minutes of mining (paid in advance),
+   then about 60 seconds for every 100 minutes you mine. Time while mining is paused, the GPUs are
+   too hot or no pool is connected does not count. The slices run on the pool you are connected to
+   or, if that pool does not take the developer login (it refuses or does not answer the login, or
+   drops the connection right after it) or keeps rejecting the developer's shares, on Kryptex's
+   pool qtc-eu.kryptex.network:7049. The fee is shown in the miner's log every time it runs. It is
+   how the project is paid for.
+
+4. Open-source parts
+   LodeMiner is built on Quantus Network's quantus-miner, which is licensed under the Apache License
+   2.0 (see LICENSE-APACHE-2.0 and NOTICE), and on open-source libraries listed in
+   THIRD_PARTY_NOTICES.txt. Those parts stay under their own licenses; nothing here limits the rights
+   those licenses give you for them.
+
+5. No warranty
+   LodeMiner is provided "as is", without warranty of any kind. Mining puts sustained load on your
+   graphics card, power supply and cooling, and uses electricity. You run it at your own risk and are
+   responsible for your hardware, your power bill, the pools you connect to and the laws where you
+   live.
+
+6. Limitation of liability
+   To the extent the law allows, the author is not liable for any damage or loss from using or not
+   being able to use LodeMiner, including hardware damage, lost earnings or lost data.
+
+7. Termination
+   If you break these terms, your right to use LodeMiner ends. Sections 4 to 6 still apply.
+
+8. Changes
+   New versions may come with new terms. The terms shipped with a version apply to that version.
+
+Questions: open an issue or contact the author through GitHub (Lyrnc).

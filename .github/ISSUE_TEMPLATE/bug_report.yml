@@ -1,0 +1,44 @@
+name: Bug report
+description: Something doesn't work, crashes or shows wrong numbers.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please remove your wallet address or email from anything you paste.
+  - type: input
+    id: version
+    attributes:
+      label: LodeMiner version
+      description: The first line of the log, e.g. "LodeMiner 0.4.0".
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU(s) and NVIDIA driver version
+      description: For example "RTX 4070, driver 610.88". Run nvidia-smi if you're not sure.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+  - type: input
+    id: pool
+    attributes:
+      label: Pool
+      placeholder: qtc-eu.kryptex.network:7049
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: The start of the log up to the first status block, plus the lines around the problem. Add --log-file lodeminer.log to start.bat to get a file.
+      render: text

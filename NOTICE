@@ -1,0 +1,14 @@
+LodeMiner
+Copyright 2026 Lyrnc
+
+This product is based on the Quantus Network external miner
+(https://github.com/Quantus-Network/quantus-miner), Copyright Quantus Network,
+licensed under the Apache License, Version 2.0 (see LICENSE-APACHE-2.0).
+
+Changes from the original include a new pool client, the LodeMiner application,
+changes to the GPU code, GPU monitoring, a stats API and a 1% developer fee.
+
+It also uses qp-poseidon-core (MIT-0), qpow-math (MIT) and the other open-source crates listed
+in THIRD_PARTY_NOTICES.txt (included in the download), each under its own licence.
+
+LodeMiner's own terms are in LICENSE. They do not change the licences of the parts above.
