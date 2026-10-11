@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/lodeminer-banner-dark.png">
-    <img src="assets/lodeminer-banner.png" alt="LodeMiner" width="520">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/lodeminer-banner-anim-dark.gif">
+    <img src="assets/lodeminer-banner-anim.gif" alt="LodeMiner" width="520">
   </picture>
 </p>
 
