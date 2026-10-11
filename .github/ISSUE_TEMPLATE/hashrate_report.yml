@@ -27,8 +27,8 @@ body:
   - type: textarea
     id: status
     attributes:
-      label: A status block after about 5 minutes
-      description: The "GPU0 ..." and "Total ..." lines.
+      label: The status after about 5 minutes
+      description: Press s and paste the status panel, or paste the "GPU0 ..." and "Total ..." lines from the log file.
       render: text
     validations:
       required: true
@@ -36,7 +36,7 @@ body:
     id: startup
     attributes:
       label: The startup lines
-      description: From "LodeMiner x.y.z" down to "connected to ...".
+      description: The start-up card, or the first lines of the log file down to "connected to ...".
       render: text
   - type: textarea
     id: other

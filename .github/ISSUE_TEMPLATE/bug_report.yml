@@ -10,7 +10,7 @@ body:
     id: version
     attributes:
       label: LodeMiner version
-      description: The first line of the log, e.g. "LodeMiner 0.4.0".
+      description: Shown in the start-up card and in the first line of the log, e.g. "LodeMiner 0.4.2".
     validations:
       required: true
   - type: input
@@ -40,5 +40,5 @@ body:
     id: log
     attributes:
       label: Log
-      description: The start of the log up to the first status block, plus the lines around the problem. Add --log-file lodeminer.log to start.bat to get a file.
+      description: The start of the log up to the first status, plus the lines around the problem. To get a file, add --log-file lodeminer.log to start.bat, or "log-file": "lodeminer.log" to lodeminer.json.
       render: text
