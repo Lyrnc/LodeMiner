@@ -15,6 +15,7 @@
   <img alt="Dev fee 1%" src="https://img.shields.io/badge/dev%20fee-1%25-2ea44f">
   <img alt="NVIDIA" src="https://img.shields.io/badge/GPU-NVIDIA-76b900">
   <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4">
+  <a href="https://discord.gg/pPqay7xvUZ"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white"></a>
 </p>
 
 <p align="center"><img src="assets/console.png" alt="LodeMiner console while mining" width="820"></p>
@@ -176,6 +177,7 @@ Old drivers can be slower too: use 576.02 or newer.
 
 ## Support
 
+- Discord: [join our community](https://discord.gg/pPqay7xvUZ)
 - Bugs: [open a bug report](https://github.com/Lyrnc/LodeMiner/issues/new?template=bug_report.yml)
 - Hashrate on your card: [send a hashrate report](https://github.com/Lyrnc/LodeMiner/issues/new?template=hashrate_report.yml)
 - Security issues: see [SECURITY.md](SECURITY.md)
